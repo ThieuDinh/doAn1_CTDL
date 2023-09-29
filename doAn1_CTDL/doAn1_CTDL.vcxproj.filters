@@ -21,6 +21,9 @@
     <ClCompile Include="source_DoAn1.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\bai3_CTDL\bai3_CTDL\source_Ex3_CTDL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="thuVien_DoAn1.h">

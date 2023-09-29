@@ -2,11 +2,12 @@
 
 int main()
 {
-	CLS m;
+	CLS m,n,k;
 	init(m);
 	nhapThongTin(m);
 	xuatDanhSach(m);
-	sapXepDTBTang(m);
+	themSVCheckCode(m);
 	xuatDanhSach(m);
+	
 	return 0;
 }

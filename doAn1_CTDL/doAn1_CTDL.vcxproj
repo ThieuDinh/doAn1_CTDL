@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\bai3_CTDL\bai3_CTDL\source_Ex3_CTDL.cpp" />
     <ClCompile Include="main_DoAn1.cpp" />
     <ClCompile Include="source_DoAn1.cpp" />
   </ItemGroup>

@@ -4,6 +4,7 @@ const int MAX = 100;
 struct Student{
 	int code;
 	char name[30];
+	char grade[10];
 	float subject[3];//math, English, c++
 }; 
 typedef Student SV;
@@ -23,7 +24,14 @@ void xuatDanhSach(CLS m);
 void xoaDanhSach(CLS &m);
 void themSinhVien(CLS &m);
 int xoaSinhVien(CLS &m, int index);
-void timKiemSinhVien(CLS m, int x);
+int timKiemSinhVien(CLS m, int x);
 void capNhatSinhVien(CLS &m, int x);
 void swap(int &x, int &y);
+float dtb(CLS m, int x);
 void sapXepDTBTang(CLS &m);
+void xoaPhanTuTrung(CLS &m);
+void sapXepMathTang(CLS &m);
+void ghepDanhSach(CLS m, CLS n, CLS &k);
+void svXuatSacNhat(CLS m);
+void svLoaiGioi(CLS m, CLS &n);
+void themSVCheckCode(CLS &m);
