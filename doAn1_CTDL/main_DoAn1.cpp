@@ -2,11 +2,9 @@
 
 int main()
 {
+	int a;
 	CLS m,n,k;
-	init(m);
-	nhapThongTin(m);
-	xuatDanhSach(m);
-	sapXepDTBTang(m);
-	xuatDanhSach(m);
+	hienthi();
+	menu(m, a);
 	return 0;
 }
