@@ -35,3 +35,4 @@ void ghepDanhSach(CLS m, CLS n, CLS &k);
 void svXuatSacNhat(CLS m);
 void svLoaiGioi(CLS m, CLS &n);
 void themSVCheckCode(CLS &m);
+bool kiemTraCode(CLS m, int code);

@@ -6,8 +6,7 @@ int main()
 	init(m);
 	nhapThongTin(m);
 	xuatDanhSach(m);
-	themSVCheckCode(m);
+	sapXepDTBTang(m);
 	xuatDanhSach(m);
-	
 	return 0;
 }

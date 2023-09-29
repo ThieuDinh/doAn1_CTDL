@@ -98,6 +98,7 @@ int timKiemSinhVien(CLS m, int x)
 		if (m.list[i].code == x)
 			return i;
 }
+
 void capNhatSinhVien(CLS &m, int x)
 {
 	for (int i = 0; i < size(m); i++)
@@ -122,11 +123,13 @@ void swap(int &x, int &y)
 	x = y;
 	y = temp;
 }
+
 float dtb(CLS m, int x)
 {
 	int dtb;
 	return dtb = (m.list[x].subject[0] + m.list[x].subject[1] + m.list[x].subject[2]) / 3;
 }
+
 void sapXepDTBTang(CLS &m)
 {
 	for (int i = 0; i < size(m) - 1; i++)
@@ -197,22 +200,28 @@ void svLoaiGioi(CLS m, CLS &n)
 			n.list[size(n)++] = m.list[i];
 }
 
+bool kiemTraCode(CLS m, int code) 
+{
+	for (int i = 0; i < size(m); i++) 
+		if (m.list[i].code == code) 
+			return true; 
+	return false;
+}
+
 void themSVCheckCode(CLS &m)
 {
+	int code;
 	size(m)++;
 	cout << "\nThong tin cua sinh vien moi " << endl;
-	cout << "\nNhap ID cua sinh vien: ";
-	cin >> m.list[size(m) - 1].code;
-	cin.ignore();
 	do {
-		for (int i = 0; i < size(m) - 1; i++)
-			if (m.list[i].code == m.list[size(m) - 1].code)
-			{
-				cout << "Code nhap bi trung! Xin nhap lai ";
-				cin >> m.list[size(m) - 1].code;
-			}
-	} while (m.list[i].code == m.list[size(m) - 1].code);
-
+		cout << "Nhap ID cua sinh vien: ";
+		cin >>code;
+		
+		if (kiemTraCode(m, code)) 
+			cout << "\nMa code da ton tai. Vui long nhap lai." << endl;
+	} while (kiemTraCode(m, code));
+	m.list[size(m) - 1].code = code;
+	cin.ignore();
 	cout << "Nhap ten sinh vien: ";
 	cin.getline(m.list[size(m) - 1].name, 30);
 	cout << "Nhap lop: ";
