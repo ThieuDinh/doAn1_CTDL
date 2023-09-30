@@ -1,7 +1,1 @@
-﻿  source_DoAn1.cpp
-c:\users\dinht\onedrive\tài liệu\tai lieu dai hoc\lap trinh\cau truc du lieu\doan1_ctdl\doan1_ctdl\source_doan1.cpp(37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\dinht\onedrive\tài liệu\tai lieu dai hoc\lap trinh\cau truc du lieu\doan1_ctdl\doan1_ctdl\source_doan1.cpp(37): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
-c:\users\dinht\onedrive\tài liệu\tai lieu dai hoc\lap trinh\cau truc du lieu\doan1_ctdl\doan1_ctdl\source_doan1.cpp(351): warning C4129: ' ': unrecognized character escape sequence
-c:\users\dinht\onedrive\tài liệu\tai lieu dai hoc\lap trinh\cau truc du lieu\doan1_ctdl\doan1_ctdl\source_doan1.cpp(109): warning C4715: 'timKiemSinhVien': not all control paths return a value
-c:\users\dinht\onedrive\tài liệu\tai lieu dai hoc\lap trinh\cau truc du lieu\doan1_ctdl\doan1_ctdl\source_doan1.cpp(196): warning C4715: 'timKiemNhiPhan': not all control paths return a value
-  doAn1_CTDL.vcxproj -> C:\Users\dinht\OneDrive\Tài liệu\Tai lieu dai hoc\Lap Trinh\Cau truc du lieu\doAn1_CTDL\Debug\doAn1_CTDL.exe
+﻿  doAn1_CTDL.vcxproj -> C:\Users\dinht\OneDrive\Tài liệu\Tai lieu dai hoc\Lap Trinh\Cau truc du lieu\doAn1_CTDL\Debug\doAn1_CTDL.exe

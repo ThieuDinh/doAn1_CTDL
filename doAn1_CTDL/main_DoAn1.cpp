@@ -3,8 +3,8 @@
 int main()
 {
 	int a;
-	CLS m,n,k;
+	CLS m, n, k;
 	hienthi();
-	menu(m, a);
+	menu(m, n, k,a);
 	return 0;
 }
